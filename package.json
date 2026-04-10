@@ -1,6 +1,6 @@
 {
   "name": "interview_workbook",
-  "homepage": "https://careerengineer.github.io/interview_workbook",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
