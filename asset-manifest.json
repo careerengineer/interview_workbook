@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/interview_workbook/static/css/main.4b7b10ce.css",
+    "main.js": "/interview_workbook/static/js/main.9910d06a.js",
+    "static/js/453.4262daf8.chunk.js": "/interview_workbook/static/js/453.4262daf8.chunk.js",
+    "index.html": "/interview_workbook/index.html",
+    "main.4b7b10ce.css.map": "/interview_workbook/static/css/main.4b7b10ce.css.map",
+    "main.9910d06a.js.map": "/interview_workbook/static/js/main.9910d06a.js.map",
+    "453.4262daf8.chunk.js.map": "/interview_workbook/static/js/453.4262daf8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b7b10ce.css",
+    "static/js/main.9910d06a.js"
+  ]
+}
