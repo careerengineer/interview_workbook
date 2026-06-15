@@ -719,6 +719,18 @@ const InterviewWorkbook = () => {
               </div>
             </div>
 
+            <a
+              href="https://mentoringprocess.pages.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block mt-4 mb-4 p-4 rounded-lg border-l-4"
+              style={{ background: '#FBFAF6', borderColor: '#C9A86A', borderLeftColor: '#C9A86A', borderWidth: '1px', borderLeftWidth: '4px', textDecoration: 'none' }}
+            >
+              <p className="text-sm m-0" style={{ color: '#0E2750', lineHeight: 1.6 }}>
+                작성한 내용에 대한 채용담당자의 평가가 궁금하다면 1:1 멘토링을 받아보세요.{' '}
+                <span style={{ fontWeight: 700, textDecoration: 'underline' }}>멘토링 프로세스 안내 →</span>
+              </p>
+            </a>
             <button onClick={() => goToQuestion(1)} className="w-full py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-colors font-bold text-lg">
               Q1부터 순서대로 시작하기 →
             </button>
@@ -955,6 +967,20 @@ const InterviewWorkbook = () => {
                       )}
                       {q.guide.ifStillDifficult && (
                         <div><p className="text-sm font-semibold text-blue-900 mb-1">그래도 어렵다면:</p><p className="text-sm text-blue-800">{q.guide.ifStillDifficult}</p></div>
+                      )}
+                      {q.guide.ifStillDifficult && (
+                        <a
+                          href="https://mentoringprocess.pages.dev/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block mt-1 p-2 rounded border-l-4"
+                          style={{ background: '#FBFAF6', borderColor: '#C9A86A', borderLeftColor: '#C9A86A', borderWidth: '1px', borderLeftWidth: '3px', textDecoration: 'none' }}
+                        >
+                          <p className="text-sm m-0" style={{ color: '#0E2750', lineHeight: 1.5 }}>
+                            작성한 내용에 대한 채용담당자의 평가가 궁금하다면 1:1 멘토링을 받아보세요.{' '}
+                            <span style={{ color: '#C9A86A', fontWeight: 600, textDecoration: 'underline' }}>멘토링 프로세스 안내 →</span>
+                          </p>
+                        </a>
                       )}
                     </div>
                   )}
